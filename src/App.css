@@ -1,0 +1,112 @@
+.MainMenuDiv {
+  text-align: center;
+}
+
+.MainMenuButton {
+
+  width: 200px;
+  height: 60px;
+  text-align: center;
+}
+
+.MainMenuButtonText {
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 23px;
+  margin-top: 5px;
+  font-weight: bold;
+
+}
+
+.MainMenuTitle {
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 20px;
+
+}
+
+.NewGameMenuDiv {
+  text-align: center;
+}
+
+.NewGameMenuRoomNumberButton {
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  background-color: grey;
+  display: inline-flex;
+  align-items: center; 
+}
+.NewGameMenuRoomNumberButtonText{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 33px;
+  font-weight: bold;
+  color: black;
+}
+.NewGameMenuRoomShareButton{
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  background-color: grey;
+  align-items: center; 
+  margin-top: 10px;
+}
+.NewGameMenuRoomShareButtonText{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 33px;
+  font-weight: bold;
+  color: white;
+}
+.WaitingPlayerText{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 33px;
+  font-weight: bold;
+  color: black;
+  margin-top: 30px;
+}
+.GameScreenUsername{
+  display: inline;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin-top: 30px;
+}
+.SecretNumber{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  font-weight: bolder;
+  color: black;
+  margin-top: 30px;
+  text-decoration: underline;
+}
+.GuessNumber{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  font-weight: bolder;
+  color: black;
+  margin-bottom: 0px;
+}
+.NumpadInput{
+  display: block;
+	margin: 2em auto;
+	border: none;
+	padding: 0;
+  width: auto;
+  letter-spacing: 2ch;
+  font-size: 23px;
+  text-align: center;
+  align-self: center;
+  margin-left: -180px;
+  color: rebeccapurple;
+  font-weight: bold;
+
+
+}
+.NumpadInput:focus{
+  outline: none;
+  color: rebeccapurple;
+  font-weight: bold;
+
+  
+}
+
