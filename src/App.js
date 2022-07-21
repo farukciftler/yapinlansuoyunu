@@ -61,6 +61,7 @@ function App() {
   const [isUsernameSet, setIsUsernameSet] = useState(0);
   const [username, setUsername] = useState("");
 
+
   function MainMenu() {
     return (
       <div className='MainMenuDiv'>
@@ -91,8 +92,8 @@ function App() {
         <br></br>
         {isUsernameSet == 0 &&
           <form>
-            <input type="text" name="name" class="question" id="nme" required autocomplete="off" onChange={(e) => setUsername(this.e)} />
-            <label for="nme"><span>What's your name?</span></label>
+            <input type="text" name="name" className="question" id="nme" required autoComplete="off" onChange={(e) => setUsername(this.e)} />
+            <label htmlFor="nme"><span>What's your name?</span></label>
             <Button variant='dark' className='NewGameMenuRoomShareButton' onClick={() => [setIsUsernameSet(1)]}>
               <p className='NewGameMenuRoomShareButtonText'>Enter</p>
             </Button>
@@ -176,6 +177,7 @@ function App() {
       return (
 
         <NewGameMenu />
+
       )
     }
     else if (isUserCame == 1) {
