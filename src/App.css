@@ -110,3 +110,56 @@
   
 }
 
+.EnterBtn {
+ 
+  height: 36px;
+  padding: 10%;
+  	
+
+  
+  
+  
+}
+  
+
+.EnterBtnText{
+  
+  font-family: 'Courier New', Courier, monospace;
+
+  font-weight: bold;
+  color: white;
+  
+
+
+}
+.JoinMenuDiv {
+  text-align: center;
+  
+
+  font-size: 23px;
+ 
+  font-weight: bold;
+
+  font-family: 'Courier New', Courier, monospace;
+  align-items: center; 
+  color: rgb(0, 0, 0);
+}
+.RoomCodeInpt{
+  text-align: center;
+  margin: auto;
+  width: 400px;
+  border: 3px double #000000;
+  padding: 10px;
+  background-color: rgb(76, 138, 149);
+ 
+
+  
+  
+  
+ 
+  font-size: 23px;
+  margin-top: 100px;
+  
+}
+
+
